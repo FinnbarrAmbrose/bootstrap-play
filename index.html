@@ -22,8 +22,25 @@
 </head>
 
 <body>
-  <!--nav bar-->
-  <nav class="navbar navbar-light bg-light navbar-expand-sm">
+ 
+  <div class="container-fluid navalert-container">
+    
+
+    <!--promo-->
+  <div class="container-fluid alert-container">
+    <div class="row d-none d-sm-block">
+      <div class="col-12">
+        <div class="site-wide-alert alert alert-warning">
+          <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a
+            href="">See here for details!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <!--nav bar-->
+  <nav class="navbar navbar-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Whiskey Drop</a>
 
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -58,21 +75,12 @@
       <p class="navbar-text my-auto mr-2">
         <i>Great whiskey delivered to your door!</i>
       </p>
-      <a href="/login">Sign In / Sign Up!</a>
+      <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up!</a>
     </div>
   </nav>
+  </div>
 
-  <!--promo
-  <div class="container alert-container">
-    <div class="row d-none d-sm-block">
-      <div class="col-12">
-        <div class="alert alert-warning">
-          <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a
-            href="">See here for details!</a>
-        </div>
-      </div>
-    </div>
-  </div>-->
+  
 
   <!-- callout-->
   <div class="container-fluid callout-container">
@@ -100,11 +108,13 @@
   </div>
 
   <!--Quotes-->
-  <div class="container quotes-container">
+  <div class="container-wrapper">
+  <div class="container quotes-container content-container">
     <section class="quotes">
       <div class="row">
-        <div class="col-12 my-5">
+        <div class="col-12 page-header">
           <h2 class="text-uppercase">Quotes :</h2>
+          <hr class="block-divided block-divided--short">
         </div>
       </div>
       <div class="row">
@@ -137,13 +147,16 @@
       </div>
     </section>
   </div>
+  </div>
 
   <!--featurse-->
-  <div class="container featurse-container">
+  <div class="container-wrapper container-wrapper--red">
+  <div class="container featurse-container content-container">
     <section class="features">
       <div class="row">
-        <div class="col-12 my-5">
+        <div class="col-12 page-header">
           <h2 class="text-uppercase">features:</h2>
+          <hr class="block-divided block-divided--short">
         </div>
       </div>
       <div class="row">
@@ -194,6 +207,7 @@
         </div>
       </div>
     </section>
+  </div>
   </div>
 
 <!--Modal-->
