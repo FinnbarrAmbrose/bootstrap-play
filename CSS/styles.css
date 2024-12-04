@@ -5,7 +5,7 @@ body {
 .container-wrapper {}
 
 .container-wrapper--red {
-	backgrond-color: #f05f04;
+	background-color: #f05f04;
 	color: white;
 }
 
@@ -106,6 +106,9 @@ body {
 .block-divided--ogange {
     background-color: #f05f40;
 }
+.block-divided--white {
+    background-color: white;
+}
 
 .block-divided--short {
     width: 35px;
@@ -168,3 +171,24 @@ body {
     background-color: blue;
     border-color: blue;
 }
+
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btu {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40
+    }
