@@ -56,7 +56,9 @@ body {
 .page-header h2 {
 	margin-top: 0;
 }
-
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 /* .content-container */
 
 .content-container {
@@ -183,9 +185,10 @@ body {
     line-height: 45px;
 }
 
-.feature .btn {
+/* not worrking */
+div.feature a.btn {
     background-color: white;
-    border-color: white;
+    border-color: green;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
