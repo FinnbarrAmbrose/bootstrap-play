@@ -183,12 +183,12 @@ body {
     line-height: 45px;
 }
 
-.feature .btu {
+.feature .btn {
     background-color: white;
     border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40
-    }
+    color: #f05f40;
+}
